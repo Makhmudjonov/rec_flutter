@@ -69,6 +69,33 @@ class DesktopView extends StatelessWidget {
                 child: TextField(
                   decoration: InputDecoration(labelText: 'Ismingiz'),
                 ),
+              ),
+              SizedBox(
+                width: 20,
+              ),
+              SizedBox(
+                width: 300, // yoki MediaQuery.of(context).size.width * 0.8
+                child: TextField(
+                  decoration: InputDecoration(labelText: 'Ismingiz'),
+                ),
+              ),
+              SizedBox(
+                width: 20,
+              ),
+              SizedBox(
+                width: 300, // yoki MediaQuery.of(context).size.width * 0.8
+                child: TextField(
+                  decoration: InputDecoration(labelText: 'Ismingiz'),
+                ),
+              ),
+              SizedBox(
+                width: 20,
+              ),
+              SizedBox(
+                width: 300, // yoki MediaQuery.of(context).size.width * 0.8
+                child: TextField(
+                  decoration: InputDecoration(labelText: 'Ismingiz'),
+                ),
               )
             ],
           )
